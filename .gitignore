@@ -1,0 +1,12 @@
+node_modules/
+dayframe-admin/data/
+dayframe-admin/test-output/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.zip
+*.log
+initial-account.json

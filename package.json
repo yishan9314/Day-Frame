@@ -1,0 +1,12 @@
+{
+  "name": "dayframe-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DayFrame pocket camera website and local order/support backend",
+  "scripts": {
+    "start": "node dayframe-admin/server.cjs"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
