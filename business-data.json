@@ -1,0 +1,245 @@
+{
+  "exported_at": "2026-10-22T09:26:19.670139+00:00",
+  "purpose": "DayFrame backend business data snapshot",
+  "tables": {
+    "records": [
+      {
+        "kind": "orders",
+        "id": "DF-20261022-834AF6DB31",
+        "data": "{\"order_id\":\"DF-20261022-834AF6DB31\",\"customer_name\":\"13\",\"email\":\"YISHAIRBS@GMAIL.COM\",\"phone\":\"0900363737\",\"product\":\"DayFrame Pocket 01 奶油粉入門套裝\",\"quantity\":1,\"unit_price\":3990,\"payment_status\":\"未付款\",\"order_status\":\"待處理\",\"order_date\":\"2026-10-22\",\"note\":\"【網站訂購】\\n收件地址：台北市信義區\\n付款方式：待聯繫確認\\n顧客備註：無\"}",
+        "version": 1,
+        "updated": "2026-10-22T03:27:46.663Z"
+      }
+    ],
+    "support_cases": [
+      {
+        "id": "SC-93e92325-8a3b-4986-902b-921c915cb812",
+        "kind": "complaint",
+        "data": "{\"name\":\"GJBISHO\",\"contact\":\"0900345762\",\"email\":\"\",\"order_id\":\"\",\"category\":\"相機無法開機\",\"description\":\"FJHEOIHGIW\",\"desired\":\"MFLSKN\"}",
+        "status": "已收到申請",
+        "priority": "一般",
+        "assignee": "",
+        "version": 2,
+        "created": "2026-10-22T04:00:42.564Z",
+        "updated": "2026-10-22T04:05:08.539Z"
+      }
+    ],
+    "support_events": [
+      {
+        "id": "EV-7bf63fe8-fa68-4d00-ae19-9563721a26ca",
+        "case_id": "SC-93e92325-8a3b-4986-902b-921c915cb812",
+        "actor": "顧客",
+        "kind": "申請已收件",
+        "body": "FJHEOIHGIW",
+        "public": 1,
+        "created": "2026-10-22T04:00:42.565Z"
+      },
+      {
+        "id": "EV-f9782478-5efc-4967-819a-1952482155b0",
+        "case_id": "SC-93e92325-8a3b-4986-902b-921c915cb812",
+        "actor": "AAA123",
+        "kind": "客服公開回覆",
+        "body": "收到",
+        "public": 1,
+        "created": "2026-10-22T04:05:08.539Z"
+      }
+    ],
+    "support_files": [],
+    "support_faq": [
+      {
+        "id": "FAQ-6bc150ed-a0b2-4e18-8d82-0fce30b3fa89",
+        "category": "訂單查詢與訂單通知",
+        "question": "如何確認訂單已成立？",
+        "answer": "在訂購頁成功儲存後，畫面會顯示訂單編號。請保留編號；若未看到成功畫面，請勿當成已成立。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.974Z"
+      },
+      {
+        "id": "FAQ-a9573205-0a18-460f-afb3-fc28e6bc5251",
+        "category": "訂單查詢與訂單通知",
+        "question": "為什麼沒有收到訂單通知信？",
+        "answer": "目前未設定電子郵件通知服務，不會自動寄送訂單信。請以訂購成功畫面與客服確認為準。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-40ee4337-aeb9-4f45-be6f-a0d3c183ad49",
+        "category": "付款與付款失敗",
+        "question": "付款失敗或重複送出怎麼辦？",
+        "answer": "本網站目前不收款，也沒有串接金流。同一訂購請求重送不會重複建單；若其他平台已扣款，請保留交易證明並提出客訴，勿提供完整卡號或密碼。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-06aa16c0-9bc3-44b9-b4d0-c612d6a871ca",
+        "category": "付款與付款失敗",
+        "question": "為什麼訂單仍顯示未付款？",
+        "answer": "未付款是網站訂單的初始狀態，不代表扣款失敗。目前付款方式待聯繫確認，請勿自行匯款到未經確認的帳戶。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-df978e60-d0a0-44e9-b6fa-038bb7bea8e3",
+        "category": "出貨與物流追蹤",
+        "question": "如何查詢出貨與物流？",
+        "answer": "目前未串接物流追蹤，示範訂購不安排出貨。若有實際購買紀錄，請附訂單編號向客服確認出貨資訊。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-836d1ae7-2388-4771-9502-ee2410cf6b8f",
+        "category": "出貨與物流追蹤",
+        "question": "收到商品或配件有問題怎麼辦？",
+        "answer": "保留外箱、商品與配件，拍下問題照片，使用售後服務表單描述情況。客服審核前，請勿依未確認的地址寄回商品。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-66766ce4-6dfa-4760-a30d-eda41ab50c17",
+        "category": "修改及取消訂單",
+        "question": "可以修改或取消訂單嗎？",
+        "answer": "請提供訂單編號與聯絡方式提出服務案件。是否可修改或取消，需由客服確認處理進度，送出需求不代表已完成變更。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-f7cdcf75-8f5c-49b0-83ad-2329ac4b9d8d",
+        "category": "修改及取消訂單",
+        "question": "如何避免重複訂購？",
+        "answer": "送出後請先保留成功畫面的訂單編號。同一請求的網路重試具有防重送機制；重新開始一筆訂購會建立不同訂單。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-533c1e7f-9052-48be-8407-62dc5160e67f",
+        "category": "退貨與退款",
+        "question": "如何申請退貨？",
+        "answer": "請填寫退貨申請，提供訂單、商品、數量、原因與問題照片。申請成功僅代表資料已收件，仍須授權人員依正式政策審核。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-84333f82-81d4-41f8-9964-a29562a6492c",
+        "category": "退貨與退款",
+        "question": "退貨期限與退款時程是多少？",
+        "answer": "正式退貨期限、受理條件及退款時程尚未設定。請參考本中心已發布的政策；未發布時請先向客服確認，網站不保證特定期限或退款結果。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-a59d9125-aa3f-4bcb-8b1c-3626f035b083",
+        "category": "相機使用及故障排除",
+        "question": "相機無法開機或充電怎麼辦？",
+        "answer": "確認電池安裝與充電線連接，依產品隨附說明操作。若發熱、膨脹或有異味，停止使用並聯絡客服；不要拆機或使用不明電源。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-cbe82c29-bd3d-46aa-a432-0cc84dbab709",
+        "category": "相機使用及故障排除",
+        "question": "記憶卡無法讀取或影像異常怎麼辦？",
+        "answer": "先備份可讀取的照片，再確認記憶卡是否依產品說明支援。不要在未備份時格式化；提供錯誤畫面與操作步驟，協助客服判斷。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-77f31abb-6c70-41fc-8499-428395a891e2",
+        "category": "保固與維修",
+        "question": "保固多久？哪些情況可以維修？",
+        "answer": "保固期間、涵蓋範圍、費用與維修流程尚未設定，請以正式發布政策及客服確認為準。網站不承諾免費或特定天數完修。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-bee4dc99-a2ad-4120-960f-2a85b63859b3",
+        "category": "保固與維修",
+        "question": "送修前需要準備什麼？",
+        "answer": "備份影像，整理購買憑證、訂單編號、問題描述與配件清單。待客服確認受理與寄送方式後再寄出，請勿自行拆解。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-a0d0de84-d85f-4a88-8d86-dde3c0b103a4",
+        "category": "聯絡客服",
+        "question": "如何聯絡客服及追蹤案件？",
+        "answer": "使用「提出客訴」或「申請退貨」。成功後保存案件編號與私人查詢金鑰，再到「追蹤案件」查看公開回覆或補件；查詢金鑰請勿分享。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      },
+      {
+        "id": "FAQ-450d2dc4-9461-4b62-946b-a74bdab9a526",
+        "category": "聯絡客服",
+        "question": "可以提供哪些附件？",
+        "answer": "可提供 JPG、PNG、WebP 或 PDF，每次最多3個、每個2MB。請遮蔽完整卡號、證件號碼及與案件無關的個資。附件只提供案件授權顧客及登入客服存取。",
+        "published": 1,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.975Z"
+      }
+    ],
+    "support_policies": [
+      {
+        "kind": "return",
+        "content": "",
+        "published": 0,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.977Z"
+      },
+      {
+        "kind": "refund",
+        "content": "",
+        "published": 0,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.978Z"
+      },
+      {
+        "kind": "warranty",
+        "content": "",
+        "published": 0,
+        "version": 1,
+        "updated": "2026-10-22T03:54:10.978Z"
+      }
+    ],
+    "support_audit": [
+      {
+        "id": 1,
+        "actor": "AAA123",
+        "action": "case.read",
+        "target": "SC-93e92325-8a3b-4986-902b-921c915cb812",
+        "detail": "",
+        "created": "2026-10-22T04:04:50.481Z"
+      },
+      {
+        "id": 2,
+        "actor": "AAA123",
+        "action": "case.reply",
+        "target": "SC-93e92325-8a3b-4986-902b-921c915cb812",
+        "detail": "",
+        "created": "2026-10-22T04:05:08.539Z"
+      },
+      {
+        "id": 3,
+        "actor": "AAA123",
+        "action": "case.read",
+        "target": "SC-93e92325-8a3b-4986-902b-921c915cb812",
+        "detail": "",
+        "created": "2026-10-22T08:06:44.231Z"
+      }
+    ],
+    "support_outbox": []
+  }
+}

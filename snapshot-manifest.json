@@ -1,0 +1,28 @@
+{
+  "snapshot_created_at": "2026-10-22T09:26:19.670139+00:00",
+  "counts": {
+    "records": 1,
+    "support_cases": 1,
+    "support_events": 2,
+    "support_files": 0,
+    "support_faq": 16,
+    "support_policies": 3,
+    "support_audit": 3,
+    "support_outbox": 0
+  },
+  "sqlite_sha256": "4557506c7c007524cf81d9aaccb47143fefb78c709fe113050e0cea9d2aaefe7",
+  "included": "Current business records, support cases, public and internal events, attachments, FAQ, policies, audit and notification history",
+  "excluded": [
+    "admin accounts/password verifiers",
+    "initial-account.json",
+    "temporary checkout authorization tokens",
+    "running sessions",
+    "environment secrets",
+    "logs",
+    "PID",
+    "WAL/SHM",
+    "old backups",
+    "test-output"
+  ],
+  "original_database_unchanged": true
+}

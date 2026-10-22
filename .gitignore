@@ -1,12 +1,12 @@
 node_modules/
-dayframe-admin/data/
-dayframe-admin/test-output/
 .env
 .env.*
 !.env.example
-*.sqlite
-*.sqlite-shm
-*.sqlite-wal
-*.zip
 *.log
+*.pid
+*.sqlite-wal
+*.sqlite-shm
 initial-account.json
+dayframe-admin/test-output/
+dayframe-admin/data/backups/
+# Business snapshot intentionally included by project owner.
